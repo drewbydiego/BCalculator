@@ -164,5 +164,6 @@ function calcularOperacion(n1, n2, operation) {
       console.log("Operación inválida");
       return;
   }
-  return resultado.toFixed(2);
+  //return resultado.toFixed(2);
+  return resultado;
 }
